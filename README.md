@@ -24,4 +24,4 @@
 
 
 -*Nice to meet u*_
-![usagi](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHF3Y2I5dGd2MjhsNmNqYjB6ZG83YXExNXVsa3p0azN3MnFrNmRlbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nM9Fzo0gFnCyQKv28u/giphy.webp)
+![usagi](https://media.giphy.com/media/3NdMwuV3BfW6j2iT5m/giphy.gif?cid=ecf05e47ydqj529l710kzlpdminl2mluspd9s4i5hw82npud&ep=v1_gifs_search&rid=giphy.gif&ct=g)
