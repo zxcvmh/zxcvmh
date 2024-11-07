@@ -10,6 +10,8 @@
 - 📫 How to reach me **vuhieu1245@gmail.com**
 
 - ⚡ Fun fact **Im kinda "dị"**
+  ![my picture](https://i.pinimg.com/564x/49/90/f8/4990f8d51e0c4e73f33f6ec1b9e8c05b.jpg)
+  
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
