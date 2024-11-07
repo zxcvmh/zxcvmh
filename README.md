@@ -20,6 +20,8 @@
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> </p>  
+<p align="left"> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> </p>    
 
+
+-*Nice to meet u*_
 ![usagi](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHF3Y2I5dGd2MjhsNmNqYjB6ZG83YXExNXVsa3p0azN3MnFrNmRlbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nM9Fzo0gFnCyQKv28u/giphy.webp)
