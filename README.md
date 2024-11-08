@@ -36,5 +36,5 @@ return 0;
 <p align="left"> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> </p>    
 
 
--*Nice to meet u*_
-![usagi](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHowZ3hnaHpyOGhhc2x0aTU2cGY5c3RxMHc0NXoxNWZpampvejR0NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3NdMwuV3BfW6j2iT5m/giphy.webp)
+-*Nice to meet u guys*_
+![usagi](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExemI0eGVpOXJzYTVudnNuemdhdTNxY21sZ2Q2MGtneTFwYjN1ZTJlcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bcKmIWkUMCjVm/giphy.webp)
