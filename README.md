@@ -5,14 +5,14 @@
 
 -  I’m looking for help with **yall <3 saranghae**
 
--  All of my projects are available at [nonehihi](nonehihi)
+-  All of my projects are available at [here](https://blank.page/)
 
 Đây là dự án lớn nhất của tớ  
 ```
 #include <iostream>
 using namespace std;
 int main(){
-cout << " Hello moi nguoi";
+cout << " Hello moi nguoi ";
 return 0;
 }
 
