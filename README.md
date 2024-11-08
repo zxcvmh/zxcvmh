@@ -1,5 +1,5 @@
 <h1 align="center">annyeong haseyo 👋, I'm Vu Minh Hieu aka floy</h1>
-<h3 align="center">Compsci major// #macdonaldemployee</h3>
+<h3 align="center">Compsci major// #KFC_employee</h3>
 
 -  I’m currently learning **C++ at UIT**
 
