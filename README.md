@@ -37,5 +37,6 @@ return 0;
 
 
 -*Nice to meet u guys*_
-![usagi](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExemI0eGVpOXJzYTVudnNuemdhdTNxY21sZ2Q2MGtneTFwYjN1ZTJlcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bcKmIWkUMCjVm/giphy.webp)
+![usagi](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExemI0eGVpOXJzYTVudnNuemdhdTNxY21sZ2Q2MGtneTFwYjN1ZTJlcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bcKmIWkUMCjVm/giphy.webp)  
+
 Quote of the day 🗣: -*“Little strokes fell great oaks.” –Benjamin Franklin"*_
