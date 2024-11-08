@@ -1,11 +1,11 @@
 <h1 align="center">annyeong haseyo 👋, I'm Vu Minh Hieu aka floy</h1>
 <h3 align="center">Compsci major// #KFC_employee</h3>
 
--  I’m currently learning **C++ at UIT**
+- ✨ I’m currently learning **C++ at UIT** ✨
 
 -  I’m looking for help with **yall <3 saranghae**
 
--  All of my projects are available at [here](https://blank.page/)
+- 🧙 All of my projects are available at [here](https://blank.page/)
 
 Đây là dự án lớn nhất của tớ  
 ```
@@ -17,7 +17,7 @@ return 0;
 }
 
 ```
--  How to "touch" me **vuhieu1245@gmail.com**
+-🌬️  How to "touch" me **vuhieu1245@gmail.com**
 -   - ngl: **Im kinda "dị"**
  
       
