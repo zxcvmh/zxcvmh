@@ -23,7 +23,7 @@ return 0;
       
  
     
-  ![my picture](https://i.pinimg.com/564x/49/90/f8/4990f8d51e0c4e73f33f6ec1b9e8c05b.jpg)                    _*Little strokes fell great oaks. –Benjamin Franklin*_
+  ![my picture](https://i.pinimg.com/564x/49/90/f8/4990f8d51e0c4e73f33f6ec1b9e8c05b.jpg)                   
  
 
 <h3 align="left">Connect with me:</h3>
@@ -38,3 +38,4 @@ return 0;
 
 -*Nice to meet u guys*_
 ![usagi](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExemI0eGVpOXJzYTVudnNuemdhdTNxY21sZ2Q2MGtneTFwYjN1ZTJlcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bcKmIWkUMCjVm/giphy.webp)
+Quote of the day 🗣: -*“Little strokes fell great oaks.” –Benjamin Franklin"*_
