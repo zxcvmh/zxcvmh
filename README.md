@@ -1,9 +1,7 @@
-<h1 align="center">annyeong haseyo 👋, I'm Vu Minh Hieu aka floy</h1>
-<h3 align="center">Compsci major// #KFC_employee</h3>
+<h1 align="center"> 👋, I'm Vu Minh Hieu aka floy</h1>
+<h3 align="center">Roblox player</h3>
 
-- ✨ I’m currently learning **C++ at UIT** ✨
-
--  I’m looking for help with **yall <3 saranghae**
+- ✨**UIT** ✨
 
 - 🧙 All of my projects are available at [here](https://blank.page/)
 
@@ -25,5 +23,6 @@
 
 -*Nice to meet u guys*_
 ![usagi](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExemI0eGVpOXJzYTVudnNuemdhdTNxY21sZ2Q2MGtneTFwYjN1ZTJlcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bcKmIWkUMCjVm/giphy.webp)  
+
 
 
