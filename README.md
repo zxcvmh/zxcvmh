@@ -7,19 +7,6 @@
 
 - 🧙 All of my projects are available at [here](https://blank.page/)
 
-Đây là dự án lớn nhất của tớ  
-```
-#include <iostream>
-using namespace std;
-int main(){
-cout << " Hello moi nguoi ";
-return 0;
-}
-
-```
--🌬️  How to "touch" me **vuhieu1245@gmail.com**
--   - ngl: **Im kinda "dị"**
- 
       
  
     
@@ -39,4 +26,4 @@ return 0;
 -*Nice to meet u guys*_
 ![usagi](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExemI0eGVpOXJzYTVudnNuemdhdTNxY21sZ2Q2MGtneTFwYjN1ZTJlcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bcKmIWkUMCjVm/giphy.webp)  
 
-Quote of the day 🗣: -*“Little strokes fell great oaks.” –Benjamin Franklin"*_
+
