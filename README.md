@@ -3,7 +3,7 @@
     <img src="./assets/header.gif" width="460" alt="header" />
   </a>
   <br/>
-  <sub><i><a href="https://open.spotify.com/playlist/37i9dQZF1EIfjfKxctWGcn?si=o4g75CWMTniYuHTGQOo39g">XOlitXO</a></i></sub>
+  <sub><i><a href="https://open.spotify.com/playlist/37i9dQZF1EIfjfKxctWGcn?si=o4g75CWMTniYuHTGQOo39g" target="_blank">XOlitXO</a></i></sub>
 
   <br/><br/>
 
