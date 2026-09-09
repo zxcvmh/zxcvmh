@@ -9,8 +9,7 @@
 
   # zxcvmh
 
-Junior CS undergrad @ UIT
-*chronic back pain.*
+*CS undergrad @ UIT with chronic back pain.*
 
   ---
 </div>
