@@ -15,6 +15,6 @@
 </div>
 
 ### Focus
-- 🛠 **Core**: AI / Information Retrieval Systems, Deep Learning, Agent Harnesses.
-- ⚡ **Stack**: Python, PyTorch, etc.
-- 🎯 **Currently**: Optimizing retrieval pipelines & NLP benchmarks, working on coursework projects.
+- **Core**: AI / Information Retrieval Systems, Deep Learning, Agent Harnesses.
+- **Stack**: Python, PyTorch, etc.
+- **Currently**: Optimizing retrieval pipelines & NLP benchmarks, working on coursework projects.
