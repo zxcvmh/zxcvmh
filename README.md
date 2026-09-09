@@ -10,8 +10,8 @@
 
   *CS undergrad @ UIT with chronic back pain.*
 
-    ---
-  </div>
+  ---
+</div>
   
   ### Focus
   - **Information Retrieval & Neural Search.**
