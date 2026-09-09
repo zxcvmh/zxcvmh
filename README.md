@@ -14,19 +14,16 @@
   ---
 </div>
 
-### Focus
-- **Information Retrieval & Neural Search**: Dense/sparse retrieval, reranking pipelines (bi-encoders, cross-encoders), metric optimization.
-- **NLP & Applied Deep Learning**: Text representation, domain adaptation, embedding architectures.
-- **Agent Systems & Harnesses**: Deterministic tool orchestration, progressive context protocols, workflow constraints.
+### Focus 
+- **Information Retrieval & Neural Search.**
+- **NLP & Applied Deep Learning.**
+- **Agent Systems & Harnesses.**
 
 ### Stack
-- **Languages**: Python, C++, TypeScript, Bash.
-- **ML & Systems**: PyTorch, Hugging Face Transformers, Sentence-Transformers, FAISS, Linux, Git.
+- **Languages**: Python.
+- **ML & Systems**: PyTorch, Git.
 
 ### Aims
-- Designing high-recall, low-latency neural retrieval pipelines for domain-specific corpora.
-- Building reliable, constrained agent harnesses for complex engineering workflows.
-- Seeking technical internship and research collaboration opportunities in Machine Learning & Systems.
+- Available soon
 
-### Contact
-- [GitHub](https://github.com/zxcvmh) · [Email](mailto:vuhieu1245@gmail.com)
+*contact me for more details.*
