@@ -9,21 +9,22 @@
 
   # zxcvmh
 
-*CS undergrad @ UIT with chronic back pain.*
+  *CS undergrad @ UIT with chronic back pain.*
 
   ---
 </div>
 
-### Focus 
+### Focus
 - **Information Retrieval & Neural Search.**
 - **NLP & Applied Deep Learning.**
 - **Agent Systems & Harnesses.**
 
 ### Stack
-- **Languages**: Python.
-- **ML & Systems**: PyTorch, Git.
+- **Languages**: Python, C++.
+- **Data / ML**: PyTorch, LightGBM, Scikit-Learn, Pandas, Optuna.
+- **Core & Systems**: Linux, Git, Hugging Face.
 
 ### Aims
-- Available soon
+- Seeking ML / Systems internship & research opportunities.
 
 *contact me for more details.*
