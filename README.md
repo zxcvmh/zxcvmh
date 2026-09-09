@@ -16,8 +16,5 @@
 
 ### Focus
 - 🛠 **Core**: AI / Information Retrieval Systems, Deep Learning, Agent Harnesses.
-- ⚡ **Stack**: Python, PyTorch, TypeScript, Linux.
-- 🎯 **Currently**: Optimizing retrieval pipelines & NLP benchmarks.
-
-### Connect
-- [GitHub](https://github.com/zxcvmh) · [Email](mailto:vuhieu1245@gmail.com)
+- ⚡ **Stack**: Python, PyTorch, etc.
+- 🎯 **Currently**: Optimizing retrieval pipelines & NLP benchmarks, working on coursework projects.
