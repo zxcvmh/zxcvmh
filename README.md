@@ -25,6 +25,6 @@
 - **Core & Systems**: Linux, Git, Hugging Face.
 
 ### Aims
-- Seeking ML / Systems internship & research opportunities.
+- Seeking ML / Systems internship & research opportunities 😭🙏.
 
 *contact me for more details.*
