@@ -9,7 +9,8 @@
 
   # zxcvmh
 
-  *Junior CS undergraduate @ UIT (VNU-HCM)*
+Junior CS undergrad @ UIT
+*chronic back pain.*
 
   ---
 </div>
