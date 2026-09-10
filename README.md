@@ -8,7 +8,7 @@
   <br/><br/>
   # Hieu Minh Vu - zxcvmh
 
-  *CS undergrad @ UIT with chronic back pain.*
+  *CS undergrad with chronic back pain.*
 
   ---
 </div>
