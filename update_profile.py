@@ -169,9 +169,16 @@ def render(mode, stats):
         f'font-family="Consolas, Menlo, Monaco, monospace" font-size="13px">',
         f'<rect x="0.5" y="0.5" width="859" height="519" rx="10" fill="{p["bg"]}" stroke="{p["border"]}"/>',
     ]
-    # ASCII Art reduced by 10% (font size 9.5px, line height 11.25px, vertically centered)
+    # ASCII portrait uniformly scaled down by an additional 15% (scale = 0.765, 0 aspect distortion)
+    # Perfectly centered in the left pane [0, 465] and vertically in [0, 520]
+    scale = 0.765
+    tx = 71.0
+    ty = 69.5
+    art_color = p["art"]
+    out.append(f'<g transform="translate({tx:.1f}, {ty:.1f}) scale({scale:.4f})">')
     for i, line in enumerate(ART.split("\n")):
-        out.append(f'<text x="30" y="{46 + i * 11.25}" font-size="9.5px" fill="{p["art"]}" xml:space="preserve">{html.escape(line)}</text>')
+        out.append(f'<text x="0" y="{20.0 + i * 12.5:.1f}" font-size="10.5px" fill="{art_color}" xml:space="preserve">{html.escape(line)}</text>')
+    out.append('</g>')
     # Specs info on right (starts at x="465")
     for i, segs in enumerate(info_lines(stats)):
         if not segs:
