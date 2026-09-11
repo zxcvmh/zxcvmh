@@ -10,36 +10,48 @@ from datetime import date, datetime, timezone
 
 USER = "zxcvmh"
 JOINED_YEAR = 2024
-W = 50
+W = 44
 
+# Clean circular portrait ASCII art without outer background noise
 ART = r"""
-             %@@@@%@@@@@
-          @@@@@@@@@@@@@@@@@@
-       @@@@@@@@@@@@@@@@@@@@@@@@
-     @@@@@@@@@@@@@@@@@@@@@@@@@@@
-     @@@@@@@@@@@@@@@@@@@@@@@@@@@@
-    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-    @@@@@@@@@@@@%@###%@@@@@@@@@@@@
-    @@@@@@@@@@%%++=**###%@@@@@@@@
-    @@@@@@%%#%#*+=-:-==*%%@@@@@@@
-     @@#*+*+*#+:-   .-+*++##%@@@
-     *@#==+++=+:.     .=+++===@%
-    *=-:: .::==:.     ::=-:..===*
-    ==...  .-=-:      .---:. -:==
-     =                        .=
-     *==:        .  ..      :==*
-        =-      ....:::    .==
-         +.         .:.   .=
-          =         ..    --
-          =      .  ....  =
-          +.              =
-          -.              =+
-       %@#=.              -*%@
-   @@@@@@@+===-.       .-==+%@@@@
-@@@@@@@@@@@%+%*++=====++#*#@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                            -=+==--:----==---
+                    -:--=++++-..+=+++=*-:=-+++=-
+                  ---=+:=.....................=++=-
+                  =+==...........................:++=
+                -++.................................-
+               -+.....................................
+              =+.......................................
+              +......=..................................
+            -=+..........:...............................
+            -=......-:....................................
+            =...:................:.=..........:...........
+            -+...............:..=...-+@.=.::.............
+             +..:.:......:.....:-:.:==#..::..:...........
+             +..........-.......--==-..+.=.:-............
+             =:........:..=.-#=%**+++=:+--:.+*+.........
+             -=.....#@.%..+@@@@@#*+-+*+#+@@+...:..*.....+
+            -:=+...@#.*.+.-.....--=+++=::...-@+-+-#%...=
+              -=...%++*%@%%*@%%*=====-==*#@#::.%#*+%..==
+              %*@@.%===:..@...#:=+=++===+.-..@-..-=#.%%
+             -#+#@.%====+++*%++=======--*+*+*==++==*-#*+
+             -==*+.*===+++++++++++=++=-++=+++++++==+:=#.
+              -#--:*=+++++++=+++-:-:-=-:=++===+++==+.:%#
+              -@=#.======+=+++=:=+**+*++=-++++======.*-=
+               -#%%=+=======+=-+*----=::+:-=++====+=#*#
+               --%::*======++===::*+=++--=++====-=+.+@-
+                 --==+======++++*#+++++#**++=-=-=++=.
+                 ----**======++*=---:-:.-=+==-==+*==-
+                    -=+====+-:--...::::.=.-====++=
+                     -=====+=++-:==--+::-++===-=
+                     -=#.--===-=++++++++=====-.*
+                       -#+=.-=+++++++++++*++-.==#
+                      -*=++=:.:==++***+--.:-+==*=
+                      =*+==+++=--:.....:-======*=
+                 -=+===+===+=++==+**#+++=======+.===
+             -++++=..##====+=+=====----========+=*..+++=
+        -=++++........@#*===++++++===+==========+%......++=
+   -=++++...............@@%#+=++=+===========#%@*..........++++-
+=+++.......................@@@@@@@@@@@@@@@@@@+.................=+++
 """.strip("\n")
 
 TOKEN = os.environ.get("GITHUB_TOKEN") or os.environ.get("ACCESS_TOKEN") or ""
@@ -72,22 +84,13 @@ def fetch_stats():
             )
             with urllib.request.urlopen(req) as r:
                 u = json.loads(r.read().decode("utf-8"))
-            req2 = urllib.request.Request(
-                f"https://api.github.com/users/{USER}/repos?per_page=100",
-                headers={"User-Agent": "profile-updater", "Accept": "application/vnd.github+json"}
-            )
-            with urllib.request.urlopen(req2) as r:
-                repos = json.loads(r.read().decode("utf-8"))
-            stars = sum(repo.get("stargazers_count", 0) for repo in repos)
             return {
                 "repos": u.get("public_repos", 5),
-                "stars": stars,
                 "commits": 136,
-                "followers": u.get("followers", 1),
             }
         except Exception as e:
             print(f"Fallback fetch error: {e}")
-            return {"repos": 5, "stars": 0, "commits": 136, "followers": 1}
+            return {"repos": 5, "commits": 136}
 
     try:
         current_year = datetime.now(timezone.utc).year
@@ -104,22 +107,18 @@ def fetch_stats():
         u = graphql(f"""
         query {{
           user(login: "{USER}") {{
-            followers {{ totalCount }}
             repositories(first: 100, ownerAffiliations: OWNER) {{
               totalCount
-              nodes {{ name stargazerCount isFork }}
             }}
           }}
         }}""")["user"]
         return {
-            "followers": u["followers"]["totalCount"],
             "repos": u["repositories"]["totalCount"],
-            "stars": sum(n["stargazerCount"] for n in u["repositories"]["nodes"]),
             "commits": commits,
         }
     except Exception as e:
         print(f"GraphQL fetch error: {e}")
-        return {"repos": 5, "stars": 0, "commits": 136, "followers": 1}
+        return {"repos": 5, "commits": 136}
 
 PALETTES = {
     "dark": {
@@ -136,10 +135,6 @@ def kv(key, val, width=W):
     dots = "." * max(width - len(key) - len(str(val)) - 3, 1)
     return [(f"{key}: ", "k"), (dots + " ", "d"), (str(val), "v")]
 
-def kv2(k1, v1, k2, v2):
-    left = kv(k1, v1, 24)
-    return left + [(" | ", "d")] + kv(k2, v2, 23)
-
 def rule(title=""):
     label = f"─ {title} " if title else ""
     return [(label, "h"), ("─" * (W - len(label)), "d")]
@@ -149,12 +144,12 @@ def info_lines(s):
     return [
         [(f"{USER.lower()}@github ", "h"), ("─" * (W - len(USER) - 8), "d")],
         [],
-        kv("OS", "Linux (Arch Linux / Ubuntu)"),
+        kv("OS", "Linux (CachyOS)"),
         kv("Host", "UIT - VNUHCM"),
-        kv("Kernel", "CS Undergrad (Junior)"),
-        kv("IDE", "Claude Code, Cursor, Neovim"),
+        kv("Kernel", "CS Undergrad"),
+        kv("IDE", "VS code, Antigravity"),
         [],
-        kv("Languages.Code", "Python, C++, TypeScript, Bash"),
+        kv("Languages.Code", "Python, C++"),
         kv("Languages.Real", "Vietnamese (Native), English"),
         kv("Focus", "Information Retrieval, NLP, Agents"),
         [],
@@ -163,31 +158,33 @@ def info_lines(s):
         kv("LinkedIn", "in/minh-hieu-vu-681714381"),
         [],
         rule("GitHub Stats"),
-        kv2("Repos", str(s["repos"]), "Stars", n(s["stars"])),
-        kv2("Commits", n(s["commits"]), "Followers", n(s["followers"])),
+        kv("Repos", str(s["repos"])),
+        kv("Commits", n(s["commits"])),
     ]
 
 def render(mode, stats):
     p = PALETTES[mode]
     out = [
-        '<svg xmlns="http://www.w3.org/2000/svg" width="840" height="500" viewBox="0 0 840 500" '
+        '<svg xmlns="http://www.w3.org/2000/svg" width="860" height="520" viewBox="0 0 860 520" '
         f'font-family="Consolas, Menlo, Monaco, monospace" font-size="13px">',
-        f'<rect x="0.5" y="0.5" width="839" height="499" rx="10" fill="{p["bg"]}" stroke="{p["border"]}"/>',
+        f'<rect x="0.5" y="0.5" width="859" height="519" rx="10" fill="{p["bg"]}" stroke="{p["border"]}"/>',
     ]
+    # ASCII Art on left (38 lines, font size 10.5px, line height 12.5px)
     for i, line in enumerate(ART.split("\n")):
-        out.append(f'<text x="25" y="{42 + i * 16}" fill="{p["art"]}" xml:space="preserve">{html.escape(line)}</text>')
+        out.append(f'<text x="20" y="{32 + i * 12.5}" font-size="10.5px" fill="{p["art"]}" xml:space="preserve">{html.escape(line)}</text>')
+    # Specs info on right (starts at x="465")
     for i, segs in enumerate(info_lines(stats)):
         if not segs:
             continue
         spans = "".join(f'<tspan fill="{p[c]}">{html.escape(t)}</tspan>' for t, c in segs)
-        out.append(f'<text x="390" y="{45 + i * 21}" xml:space="preserve">{spans}</text>')
+        out.append(f'<text x="465" y="{42 + i * 21}" xml:space="preserve">{spans}</text>')
     out.append("</svg>")
     return "\n".join(out)
 
 if __name__ == "__main__":
     stats = fetch_stats()
-    print("Fetched stats:", stats)
+    print("Stats:", stats)
     for mode in PALETTES:
-        with open(f"{mode}_mode.svg", "w", encoding="utf-8") as f:
+        with open(f"/home/zxcvmh/github-profile/{mode}_mode.svg", "w", encoding="utf-8") as f:
             f.write(render(mode, stats))
-    print("Generated dark_mode.svg and light_mode.svg successfully")
+    print("Regenerated dark_mode.svg and light_mode.svg successfully")
