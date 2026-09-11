@@ -169,9 +169,9 @@ def render(mode, stats):
         f'font-family="Consolas, Menlo, Monaco, monospace" font-size="13px">',
         f'<rect x="0.5" y="0.5" width="859" height="519" rx="10" fill="{p["bg"]}" stroke="{p["border"]}"/>',
     ]
-    # ASCII Art on left (38 lines, font size 10.5px, line height 12.5px)
+    # ASCII Art reduced by 10% (font size 9.5px, line height 11.25px, vertically centered)
     for i, line in enumerate(ART.split("\n")):
-        out.append(f'<text x="20" y="{32 + i * 12.5}" font-size="10.5px" fill="{p["art"]}" xml:space="preserve">{html.escape(line)}</text>')
+        out.append(f'<text x="30" y="{46 + i * 11.25}" font-size="9.5px" fill="{p["art"]}" xml:space="preserve">{html.escape(line)}</text>')
     # Specs info on right (starts at x="465")
     for i, segs in enumerate(info_lines(stats)):
         if not segs:

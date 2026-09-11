@@ -1,50 +1,50 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="520" viewBox="0 0 860 520" font-family="Consolas, Menlo, Monaco, monospace" font-size="13px">
 <rect x="0.5" y="0.5" width="859" height="519" rx="10" fill="#0d1117" stroke="#30363d"/>
-<text x="20" y="32.0" font-size="10.5px" fill="#8b949e" xml:space="preserve">                            -=+==--:----==---</text>
-<text x="20" y="44.5" font-size="10.5px" fill="#8b949e" xml:space="preserve">                    -:--=++++-..+=+++=*-:=-+++=-</text>
-<text x="20" y="57.0" font-size="10.5px" fill="#8b949e" xml:space="preserve">                  ---=+:=.....................=++=-</text>
-<text x="20" y="69.5" font-size="10.5px" fill="#8b949e" xml:space="preserve">                  =+==...........................:++=</text>
-<text x="20" y="82.0" font-size="10.5px" fill="#8b949e" xml:space="preserve">                -++.................................-</text>
-<text x="20" y="94.5" font-size="10.5px" fill="#8b949e" xml:space="preserve">               -+.....................................</text>
-<text x="20" y="107.0" font-size="10.5px" fill="#8b949e" xml:space="preserve">              =+.......................................</text>
-<text x="20" y="119.5" font-size="10.5px" fill="#8b949e" xml:space="preserve">              +......=..................................</text>
-<text x="20" y="132.0" font-size="10.5px" fill="#8b949e" xml:space="preserve">            -=+..........:...............................</text>
-<text x="20" y="144.5" font-size="10.5px" fill="#8b949e" xml:space="preserve">            -=......-:....................................</text>
-<text x="20" y="157.0" font-size="10.5px" fill="#8b949e" xml:space="preserve">            =...:................:.=..........:...........</text>
-<text x="20" y="169.5" font-size="10.5px" fill="#8b949e" xml:space="preserve">            -+...............:..=...-+@.=.::.............</text>
-<text x="20" y="182.0" font-size="10.5px" fill="#8b949e" xml:space="preserve">             +..:.:......:.....:-:.:==#..::..:...........</text>
-<text x="20" y="194.5" font-size="10.5px" fill="#8b949e" xml:space="preserve">             +..........-.......--==-..+.=.:-............</text>
-<text x="20" y="207.0" font-size="10.5px" fill="#8b949e" xml:space="preserve">             =:........:..=.-#=%**+++=:+--:.+*+.........</text>
-<text x="20" y="219.5" font-size="10.5px" fill="#8b949e" xml:space="preserve">             -=.....#@.%..+@@@@@#*+-+*+#+@@+...:..*.....+</text>
-<text x="20" y="232.0" font-size="10.5px" fill="#8b949e" xml:space="preserve">            -:=+...@#.*.+.-.....--=+++=::...-@+-+-#%...=</text>
-<text x="20" y="244.5" font-size="10.5px" fill="#8b949e" xml:space="preserve">              -=...%++*%@%%*@%%*=====-==*#@#::.%#*+%..==</text>
-<text x="20" y="257.0" font-size="10.5px" fill="#8b949e" xml:space="preserve">              %*@@.%===:..@...#:=+=++===+.-..@-..-=#.%%</text>
-<text x="20" y="269.5" font-size="10.5px" fill="#8b949e" xml:space="preserve">             -#+#@.%====+++*%++=======--*+*+*==++==*-#*+</text>
-<text x="20" y="282.0" font-size="10.5px" fill="#8b949e" xml:space="preserve">             -==*+.*===+++++++++++=++=-++=+++++++==+:=#.</text>
-<text x="20" y="294.5" font-size="10.5px" fill="#8b949e" xml:space="preserve">              -#--:*=+++++++=+++-:-:-=-:=++===+++==+.:%#</text>
-<text x="20" y="307.0" font-size="10.5px" fill="#8b949e" xml:space="preserve">              -@=#.======+=+++=:=+**+*++=-++++======.*-=</text>
-<text x="20" y="319.5" font-size="10.5px" fill="#8b949e" xml:space="preserve">               -#%%=+=======+=-+*----=::+:-=++====+=#*#</text>
-<text x="20" y="332.0" font-size="10.5px" fill="#8b949e" xml:space="preserve">               --%::*======++===::*+=++--=++====-=+.+@-</text>
-<text x="20" y="344.5" font-size="10.5px" fill="#8b949e" xml:space="preserve">                 --==+======++++*#+++++#**++=-=-=++=.</text>
-<text x="20" y="357.0" font-size="10.5px" fill="#8b949e" xml:space="preserve">                 ----**======++*=---:-:.-=+==-==+*==-</text>
-<text x="20" y="369.5" font-size="10.5px" fill="#8b949e" xml:space="preserve">                    -=+====+-:--...::::.=.-====++=</text>
-<text x="20" y="382.0" font-size="10.5px" fill="#8b949e" xml:space="preserve">                     -=====+=++-:==--+::-++===-=</text>
-<text x="20" y="394.5" font-size="10.5px" fill="#8b949e" xml:space="preserve">                     -=#.--===-=++++++++=====-.*</text>
-<text x="20" y="407.0" font-size="10.5px" fill="#8b949e" xml:space="preserve">                       -#+=.-=+++++++++++*++-.==#</text>
-<text x="20" y="419.5" font-size="10.5px" fill="#8b949e" xml:space="preserve">                      -*=++=:.:==++***+--.:-+==*=</text>
-<text x="20" y="432.0" font-size="10.5px" fill="#8b949e" xml:space="preserve">                      =*+==+++=--:.....:-======*=</text>
-<text x="20" y="444.5" font-size="10.5px" fill="#8b949e" xml:space="preserve">                 -=+===+===+=++==+**#+++=======+.===</text>
-<text x="20" y="457.0" font-size="10.5px" fill="#8b949e" xml:space="preserve">             -++++=..##====+=+=====----========+=*..+++=</text>
-<text x="20" y="469.5" font-size="10.5px" fill="#8b949e" xml:space="preserve">        -=++++........@#*===++++++===+==========+%......++=</text>
-<text x="20" y="482.0" font-size="10.5px" fill="#8b949e" xml:space="preserve">   -=++++...............@@%#+=++=+===========#%@*..........++++-</text>
-<text x="20" y="494.5" font-size="10.5px" fill="#8b949e" xml:space="preserve">=+++.......................@@@@@@@@@@@@@@@@@@+.................=+++</text>
+<text x="30" y="46.0" font-size="9.5px" fill="#8b949e" xml:space="preserve">                            -=+==--:----==---</text>
+<text x="30" y="57.25" font-size="9.5px" fill="#8b949e" xml:space="preserve">                    -:--=++++-..+=+++=*-:=-+++=-</text>
+<text x="30" y="68.5" font-size="9.5px" fill="#8b949e" xml:space="preserve">                  ---=+:=.....................=++=-</text>
+<text x="30" y="79.75" font-size="9.5px" fill="#8b949e" xml:space="preserve">                  =+==...........................:++=</text>
+<text x="30" y="91.0" font-size="9.5px" fill="#8b949e" xml:space="preserve">                -++.................................-</text>
+<text x="30" y="102.25" font-size="9.5px" fill="#8b949e" xml:space="preserve">               -+.....................................</text>
+<text x="30" y="113.5" font-size="9.5px" fill="#8b949e" xml:space="preserve">              =+.......................................</text>
+<text x="30" y="124.75" font-size="9.5px" fill="#8b949e" xml:space="preserve">              +......=..................................</text>
+<text x="30" y="136.0" font-size="9.5px" fill="#8b949e" xml:space="preserve">            -=+..........:...............................</text>
+<text x="30" y="147.25" font-size="9.5px" fill="#8b949e" xml:space="preserve">            -=......-:....................................</text>
+<text x="30" y="158.5" font-size="9.5px" fill="#8b949e" xml:space="preserve">            =...:................:.=..........:...........</text>
+<text x="30" y="169.75" font-size="9.5px" fill="#8b949e" xml:space="preserve">            -+...............:..=...-+@.=.::.............</text>
+<text x="30" y="181.0" font-size="9.5px" fill="#8b949e" xml:space="preserve">             +..:.:......:.....:-:.:==#..::..:...........</text>
+<text x="30" y="192.25" font-size="9.5px" fill="#8b949e" xml:space="preserve">             +..........-.......--==-..+.=.:-............</text>
+<text x="30" y="203.5" font-size="9.5px" fill="#8b949e" xml:space="preserve">             =:........:..=.-#=%**+++=:+--:.+*+.........</text>
+<text x="30" y="214.75" font-size="9.5px" fill="#8b949e" xml:space="preserve">             -=.....#@.%..+@@@@@#*+-+*+#+@@+...:..*.....+</text>
+<text x="30" y="226.0" font-size="9.5px" fill="#8b949e" xml:space="preserve">            -:=+...@#.*.+.-.....--=+++=::...-@+-+-#%...=</text>
+<text x="30" y="237.25" font-size="9.5px" fill="#8b949e" xml:space="preserve">              -=...%++*%@%%*@%%*=====-==*#@#::.%#*+%..==</text>
+<text x="30" y="248.5" font-size="9.5px" fill="#8b949e" xml:space="preserve">              %*@@.%===:..@...#:=+=++===+.-..@-..-=#.%%</text>
+<text x="30" y="259.75" font-size="9.5px" fill="#8b949e" xml:space="preserve">             -#+#@.%====+++*%++=======--*+*+*==++==*-#*+</text>
+<text x="30" y="271.0" font-size="9.5px" fill="#8b949e" xml:space="preserve">             -==*+.*===+++++++++++=++=-++=+++++++==+:=#.</text>
+<text x="30" y="282.25" font-size="9.5px" fill="#8b949e" xml:space="preserve">              -#--:*=+++++++=+++-:-:-=-:=++===+++==+.:%#</text>
+<text x="30" y="293.5" font-size="9.5px" fill="#8b949e" xml:space="preserve">              -@=#.======+=+++=:=+**+*++=-++++======.*-=</text>
+<text x="30" y="304.75" font-size="9.5px" fill="#8b949e" xml:space="preserve">               -#%%=+=======+=-+*----=::+:-=++====+=#*#</text>
+<text x="30" y="316.0" font-size="9.5px" fill="#8b949e" xml:space="preserve">               --%::*======++===::*+=++--=++====-=+.+@-</text>
+<text x="30" y="327.25" font-size="9.5px" fill="#8b949e" xml:space="preserve">                 --==+======++++*#+++++#**++=-=-=++=.</text>
+<text x="30" y="338.5" font-size="9.5px" fill="#8b949e" xml:space="preserve">                 ----**======++*=---:-:.-=+==-==+*==-</text>
+<text x="30" y="349.75" font-size="9.5px" fill="#8b949e" xml:space="preserve">                    -=+====+-:--...::::.=.-====++=</text>
+<text x="30" y="361.0" font-size="9.5px" fill="#8b949e" xml:space="preserve">                     -=====+=++-:==--+::-++===-=</text>
+<text x="30" y="372.25" font-size="9.5px" fill="#8b949e" xml:space="preserve">                     -=#.--===-=++++++++=====-.*</text>
+<text x="30" y="383.5" font-size="9.5px" fill="#8b949e" xml:space="preserve">                       -#+=.-=+++++++++++*++-.==#</text>
+<text x="30" y="394.75" font-size="9.5px" fill="#8b949e" xml:space="preserve">                      -*=++=:.:==++***+--.:-+==*=</text>
+<text x="30" y="406.0" font-size="9.5px" fill="#8b949e" xml:space="preserve">                      =*+==+++=--:.....:-======*=</text>
+<text x="30" y="417.25" font-size="9.5px" fill="#8b949e" xml:space="preserve">                 -=+===+===+=++==+**#+++=======+.===</text>
+<text x="30" y="428.5" font-size="9.5px" fill="#8b949e" xml:space="preserve">             -++++=..##====+=+=====----========+=*..+++=</text>
+<text x="30" y="439.75" font-size="9.5px" fill="#8b949e" xml:space="preserve">        -=++++........@#*===++++++===+==========+%......++=</text>
+<text x="30" y="451.0" font-size="9.5px" fill="#8b949e" xml:space="preserve">   -=++++...............@@%#+=++=+===========#%@*..........++++-</text>
+<text x="30" y="462.25" font-size="9.5px" fill="#8b949e" xml:space="preserve">=+++.......................@@@@@@@@@@@@@@@@@@+.................=+++</text>
 <text x="465" y="42" xml:space="preserve"><tspan fill="#58a6ff">zxcvmh@github </tspan><tspan fill="#484f58">──────────────────────────────</tspan></text>
 <text x="465" y="84" xml:space="preserve"><tspan fill="#ffa657">OS: </tspan><tspan fill="#484f58">........................ </tspan><tspan fill="#c9d1d9">Linux (CachyOS)</tspan></text>
 <text x="465" y="105" xml:space="preserve"><tspan fill="#ffa657">Host: </tspan><tspan fill="#484f58">......................... </tspan><tspan fill="#c9d1d9">UIT - VNUHCM</tspan></text>
 <text x="465" y="126" xml:space="preserve"><tspan fill="#ffa657">Kernel: </tspan><tspan fill="#484f58">....................... </tspan><tspan fill="#c9d1d9">CS Undergrad</tspan></text>
 <text x="465" y="147" xml:space="preserve"><tspan fill="#ffa657">IDE: </tspan><tspan fill="#484f58">.................. </tspan><tspan fill="#c9d1d9">VS code, Antigravity</tspan></text>
 <text x="465" y="189" xml:space="preserve"><tspan fill="#ffa657">Languages.Code: </tspan><tspan fill="#484f58">................ </tspan><tspan fill="#c9d1d9">Python, C++</tspan></text>
-<text x="465" y="210" xml:space="preserve"><tspan fill="#ffa657">Languages.Real: </tspan><tspan fill="#484f58">. </tspan><tspan fill="#c9d1d9">Vietnamese (Native), English</tspan></text>
+<text x="465" y="210" xml:space="preserve"><tspan fill="#ffa657">Languages.Real: </tspan><tspan fill="#484f58">........ </tspan><tspan fill="#c9d1d9">Vietnamese, English</tspan></text>
 <text x="465" y="231" xml:space="preserve"><tspan fill="#ffa657">Focus: </tspan><tspan fill="#484f58">.. </tspan><tspan fill="#c9d1d9">Information Retrieval, NLP, Agents</tspan></text>
 <text x="465" y="273" xml:space="preserve"><tspan fill="#58a6ff">─ Contact </tspan><tspan fill="#484f58">──────────────────────────────────</tspan></text>
 <text x="465" y="294" xml:space="preserve"><tspan fill="#ffa657">Email: </tspan><tspan fill="#484f58">........ </tspan><tspan fill="#c9d1d9">contact.hieuminhvu@gmail.com</tspan></text>
