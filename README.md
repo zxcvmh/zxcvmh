@@ -13,17 +13,27 @@
   ---
 </div>
   
-  ### Focus
-  - **Information Retrieval & Neural Search.**
-  - **NLP & Applied Deep Learning.**
-  - **Agent Systems & Harnesses.**
-  
-  ### Stack
-  - **Languages**: Python, C++.
-  - **Data / ML**: PyTorch, LightGBM, Scikit-Learn, Pandas, Optuna.
-  - **Core & Systems**: Linux, Git, Hugging Face.
-  
-  ### Aims
-  - Seeking ML / Systems internship & research opportunities🥀.
-  
-  *contact me for more details.*
+### Focus
+- **Information Retrieval & Neural Search.**
+- **NLP & Applied Deep Learning.**
+- **Agent Systems & Harnesses.**
+
+### Stack
+- **Languages**: Python, C++.
+- **Data / ML**: PyTorch, LightGBM, Scikit-Learn, Pandas, Optuna.
+- **Core & Systems**: Linux, Git, Hugging Face.
+
+### Aims
+- Seeking ML / Systems internship & research opportunities🥀.
+
+*contact me for more details.*
+
+<br/><br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
+    <source media="(prefers-color-scheme: light)" srcset="light_mode.svg">
+    <img alt="zxcvmh's profile stats" src="dark_mode.svg">
+  </picture>
+</div>
