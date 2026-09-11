@@ -22,5 +22,7 @@
     <source media="(prefers-color-scheme: light)" srcset="light_mode.svg">
     <img alt="zxcvmh's profile stats" src="dark_mode.svg">
   </picture>
+</div>
+<div>
   *contact me for more details.*
 </div>
