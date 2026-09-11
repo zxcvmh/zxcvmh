@@ -150,7 +150,7 @@ def info_lines(s):
         kv("IDE", "VS code, Antigravity"),
         [],
         kv("Languages.Code", "Python, C++"),
-        kv("Languages.Real", "Vietnamese (Native), English"),
+        kv("Languages.Real", "Vietnamese, English"),
         kv("Focus", "Information Retrieval, NLP, Agents"),
         [],
         rule("Contact"),
