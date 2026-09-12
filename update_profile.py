@@ -191,7 +191,9 @@ def render(mode, stats):
 if __name__ == "__main__":
     stats = fetch_stats()
     print("Stats:", stats)
+    base_dir = os.path.dirname(os.path.abspath(__file__))
     for mode in PALETTES:
-        with open(f"/home/zxcvmh/github-profile/{mode}_mode.svg", "w", encoding="utf-8") as f:
+        out_path = os.path.join(base_dir, f"{mode}_mode.svg")
+        with open(out_path, "w", encoding="utf-8") as f:
             f.write(render(mode, stats))
     print("Regenerated dark_mode.svg and light_mode.svg successfully")
