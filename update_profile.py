@@ -155,7 +155,7 @@ def info_lines(s):
         [],
         rule("Contact"),
         kv("Email", "contact.hieuminhvu@gmail.com"),
-        kv("LinkedIn", "in/minh-hieu-vu-681714381"),
+        kv("LinkedIn", "in/hieuminhvu556"),
         [],
         rule("GitHub Stats"),
         kv("Repos", str(s["repos"])),
@@ -165,15 +165,15 @@ def info_lines(s):
 def render(mode, stats):
     p = PALETTES[mode]
     out = [
-        '<svg xmlns="http://www.w3.org/2000/svg" width="860" height="520" viewBox="0 0 860 520" '
+        '<svg xmlns="http://www.w3.org/2000/svg" width="860" height="450" viewBox="0 0 860 450" '
         f'font-family="Consolas, Menlo, Monaco, monospace" font-size="13px">',
-        f'<rect x="0.5" y="0.5" width="859" height="519" rx="10" fill="{p["bg"]}" stroke="{p["border"]}"/>',
+        f'<rect x="0.5" y="0.5" width="859" height="449" rx="10" fill="{p["bg"]}" stroke="{p["border"]}"/>',
     ]
-    # ASCII portrait uniformly scaled down by an additional 15% (scale = 0.765, 0 aspect distortion)
-    # Perfectly centered in the left pane [0, 465] and vertically in [0, 520]
+    # ASCII portrait uniformly scaled down (scale = 0.765, 0 aspect distortion)
+    # Aligned vertically to the exact center of the text block on the right (center = 217.5px)
     scale = 0.765
     tx = 71.0
-    ty = 69.5
+    ty = 25.3
     art_color = p["art"]
     out.append(f'<g transform="translate({tx:.1f}, {ty:.1f}) scale({scale:.4f})">')
     for i, line in enumerate(ART.split("\n")):
